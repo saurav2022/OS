@@ -26,5 +26,5 @@ n = 5
 n%10 ---> 645
 n/10 ---> 54, 5, 0
 
-Palindrome : 14641, MADAM
+Palindrome : 14641, MADAM    sum == num_copy?
 */
