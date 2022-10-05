@@ -1,0 +1,32 @@
+Sun - 0
+Mon - 1
+Tue - 2
+Wed - 3
+..
+Sat - 6
+
+Century year(2000, 2100,...)
+	If divisible by 400 : Leap Year (1600, 2000, 2400)
+	Otherwise : Not a leap year (2100, 2200)
+Non-century year (..., 2021, 2022, 2023, 2024, ...)
+	Divisible by 4 (2004, 2008, 2012, 2016, 2020)
+
+1 Non Leap Year = 365 days = (52 * 7) + 1 [That's why an year starts and ends on the same day]
+1 Leap Year = 366 days = (52 * 7) + 2
+
+100 Y = 24 LY + 76 NLY = (24 * 2) + 76 = 124 = (17 * 7) + 5   [100 years = 5 odd days]
+200 Y = 48 LY + 152 NLY = (48 * 2)+152 = 248 = (35 * 7) + 3   [200 years = 3 odd days]
+300 Y = 72 LY + 228 NLY = (72 * 2)+228 = 372 = (53 * 7) + 1   [300 years = 1 odd day]
+400 Y = 97 LY + 303 NLY = (97 * 2)+303 = 497 = (71 * 7) + 0   [400 years = 0 odd days]
+
+Number of days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+5th Oct, 2022 
+= 2021 years + 9 months of 2022 + 5 days
+= (400 * 5)years + 21 years + 9 months of 2022 + 5 days
+= 0 + (5 LY + 16 NLY )+ 9 months of 2022 + 5 days
+= (5 * 2) + 16 + 273  + 5
+= 5 + 273 + 5 
+= 283 (% 7)
+= 3 
+	
