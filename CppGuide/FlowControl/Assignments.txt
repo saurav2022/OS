@@ -1,0 +1,20 @@
+Assignments:
+1. Find if a year is leap year or not.
+
+2. Implement division by repeated subtraction. Find quotient and remainder.
+
+3. Find the sum of first N natural numbers. (1 + 2 + 3 + .... + n)
+
+4. Take three sides of a triangle from the user. Check if the triangle is feasible and print the type of the triangle (Scalene, Equilateral, Isosceles, Right Angled triangle)
+
+5. Write a code to reverse a number.
+
+6. Write a code to find the maximum number from a list of numbers entered by the user.
+
+7. Write a code to find the second highest number from a list of numbers entered by the user.
+
+8. Find the square root of a number.
+
+9. Take the weight and height from the user and print BMI.(mass_in_kg/(height_in_m)^2)
+
+10. From Q9, print what is the health category of the user (Underweight, Normal,..., Extremely Obese)
