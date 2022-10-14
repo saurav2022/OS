@@ -7,7 +7,8 @@ Assignments:
 
 4. Take three sides of a triangle from the user. Check if the triangle is feasible and print the type of the triangle (Scalene, Equilateral, Isosceles, Right Angled triangle)
 
-5. Write a code to reverse a number.
+5. Write a code to reverse a number. 
+[Check if the number is palindrome.](123 == 321 No    1331 == 1331 Yes)
 
 6. Write a code to find the maximum number from a list of numbers entered by the user.
 
