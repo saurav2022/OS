@@ -1,21 +1,24 @@
 #include<iostream>
 using namespace std;
 
-void bubbleSort(int arr[], int n){
-	int i,j;
+void selectionSort(int arr[], int n){
+	int i,j, min_idx;
 	for(i=0; i< n-1; i++){
-		for(j=0; j< n- i - 1; j++){
-			if(arr[j] > arr[j+1]){
-				swap(arr[j], arr[j+1]);
+		min_idx = i;
+		for(j=i+1; j< n; j++){
+			if(arr[j] < arr[min_idx]){
+				min_idx = j;
 			}
 		}
+		if (min_idx != i)
+			swap(arr[min_idx], arr[i]);
 	}
 }
 
 int main(){
 	int arr[] = {44,33,55,22,11};
 	int N = sizeof(arr) / sizeof(arr[0]);
-	bubbleSort(arr, N);
+	selectionSort(arr, N);
 	cout << "Sorted array : \n";
 	for(int i=0; i<N; i++){
 		cout << arr[i] << " ";
